@@ -1,0 +1,6 @@
+include ':framelayout'
+include ':tablelayout'
+include ':drawview'
+include ':miview'
+include ':app'
+rootProject.name = "test"

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">界面测试</string>
+    <string name="helloWorld">hello world!</string>
+</resources>

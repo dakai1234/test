@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="@color/bigstone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/record"
+                android:layout_width="92dp"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:drawableTop="@drawable/content"
+                android:text="告警记录"
+                android:textColor="@color/matisse"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/idea"
+                android:layout_width="92dp"
+                android:background="@null"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/plan"
+                android:text="应急预案"
+                android:textColor="@color/matisse"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/newrecord"
+                android:layout_width="92dp"
+                android:background="@null"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/new1_foreground"
+                android:text="最新告警"
+                android:textColor="@color/matisse"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/person"
+                android:layout_width="92dp"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:drawableTop="@drawable/people_center_foreground"
+                android:text="个人中心"
+                android:textColor="@color/matisse"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/matisse"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/cumulativeAlarm"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_width="160dp"
+                    android:layout_height="103dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/btn_shape_round"
+                    android:text="累计告警"
+                    android:textColor="@color/matisse"
+                    android:textSize="18dp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/artificialScreening"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_width="160dp"
+                    android:layout_height="103dp"
+                    android:background="@drawable/btn_shape_round"
+                    android:text="人工甄别"
+                    android:textColor="@color/matisse"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/sendP"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_width="160dp"
+                    android:layout_height="103dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/btn_shape_round"
+                    android:text="派警"
+                    android:textColor="@color/matisse"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/artificialScreening1"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_width="160dp"
+                    android:layout_height="103dp"
+                    android:background="@drawable/btn_shape_round"
+                    android:text="派警反馈"
+                    android:textColor="@color/matisse"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/trumpet"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/trumpet"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/inform"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/helloWorld"
+                android:textColor="@color/matisse"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/line2"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/matisse"/>
+        </LinearLayout>
+
+            <ImageView
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:src="@drawable/map" />
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:paddingTop="5dp"
+                    android:paddingLeft="15dp"
+                    android:id="@+id/alarmPercent"
+                    android:layout_width="155dp"
+                    android:layout_height="160dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/btn_shape_round"
+                    android:text="告警占比"
+                    android:textColor="@color/matisse"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/alarmTrend"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_width="155dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/btn_shape_round"
+                    android:text="告警趋势图"
+                    android:textColor="@color/matisse"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/newAlarm"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="最新告警信息"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/alarmType"
+                    android:gravity="center"
+                    android:layout_width="105dp"
+                    android:layout_height="wrap_content"
+                    android:text="告警类型"
+                    android:textSize="15dp"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:id="@+id/vidicon"
+                    android:gravity="center"
+                    android:layout_width="105dp"
+                    android:layout_height="wrap_content"
+                    android:text="摄像机"
+                    android:textSize="15dp"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:id="@+id/alarmTime"
+                    android:gravity="center"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="告警时间"
+                    android:textSize="15dp"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/yellow"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="105dp"
+                    android:layout_height="wrap_content"
+                    android:text="振动异常"
+                    android:textSize="15dp"
+                    android:textColor="@color/orange"/>
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="105dp"
+                    android:layout_height="wrap_content"
+                    android:text="摄像机1"
+                    android:textSize="15dp"
+                    android:textColor="@color/orange"/>
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="05月06时09时08分"
+                    android:textColor="@color/orange"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

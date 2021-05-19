@@ -1,0 +1,6 @@
+include ':floatingactionbutton'
+include ':quickcontactbadgetest'
+include ':imagebuttontest'
+include ':app:imagebuttontest'
+include ':app'
+rootProject.name = "ImageViewTest"

@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bigStone">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="新冠肺炎防疫复工作战指挥大屏"
+            android:textSize="25dp"
+            android:textColor="@color/matisse"/>
+
+        <LinearLayout
+
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/matisse"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="员工情况"
+            android:textSize="20dp"
+            android:textColor="@color/matisse" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:background="@drawable/graden_border"
+                android:gravity="center"
+                android:text="企业总人数"
+                android:textColor="@color/matisse"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="50dp"
+                android:gravity="center"
+                android:text="今日上班打卡人数"
+                android:textColor="@color/matisse"
+                android:textSize="18dp"
+                android:background="@drawable/graden_border"/>
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/matisse"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="扫码信息"
+            android:textSize="20dp"
+            android:textColor="@color/matisse" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/graden_border"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="近七日打卡上班情况"
+                android:textSize="18dp"
+                android:textColor="@color/matisse"/>
+
+            <View
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/matisse"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/graden_border"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="近七日复工情况"
+                android:textSize="18dp"
+                android:textColor="@color/matisse"/>
+
+            <View
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/matisse"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/graden_border"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="240dp"
+                    android:layout_height="110dp"
+                    android:text="有疫区接触史的员工"
+                    android:textColor="@color/matisse"
+                    android:textSize="18dp"
+                    android:background="@drawable/graden_border"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="110dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="已回工作地员工"
+                    android:textColor="@color/matisse"
+                    android:textSize="18dp"
+                    android:background="@drawable/graden_border"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="已复原员工"
+                    android:textColor="@color/matisse"
+                    android:textSize="18dp"
+                    android:background="@drawable/graden_border"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/matisse"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="健康信息"
+                android:textSize="20dp"
+                android:textColor="@color/matisse"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="110dp"
+                android:gravity="center"
+                android:text="今日已健康打卡"
+                android:textColor="@color/matisse"
+                android:textSize="18dp"
+                android:background="@drawable/graden_border"/>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="110dp"
+                android:gravity="center"
+                android:background="@drawable/graden_border"
+                android:layout_marginLeft="40dp"
+                android:text="今日健康员工"
+                android:textSize="18dp"
+                android:textColor="@color/matisse"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/matisse"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="工作地居家隔离14天员工"
+                android:textColor="@color/matisse"
+                android:textSize="20dp"/>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="隔离中"
+                    android:textColor="@color/matisse"
+                    android:textSize="18dp"
+                    android:background="@drawable/graden_border"/>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:text="已完成"
+                    android:textSize="18dp"
+                    android:textColor="@color/matisse"
+                    android:gravity="center"
+                    android:background="@drawable/graden_border"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="340dp"
+                android:layout_height="110dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="员工工作地居家隔离平均天数"
+                android:background="@drawable/graden_border"
+                android:textSize="18dp"
+                android:textColor="@color/matisse"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/matisse"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="重点关注的“发烧，咳嗽”员工"
+                android:textSize="20dp"
+                android:textColor="@color/yellow"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/matisse"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="员工"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="@color/matisse"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="员工工号"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="@color/matisse"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="员工手机号"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="@color/matisse"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="员工部门"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="@color/matisse"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/matisse"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="18dp"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="@color/matisse"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="18dp"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="@color/matisse"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="18dp"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="@color/matisse"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="18dp"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="@color/matisse"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/matisse"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="今日“发烧，咳嗽”员工"
+                android:textSize="20dp"
+                android:textColor="@color/yellow"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/matisse"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="员工"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="@color/matisse"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="员工工号"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="@color/matisse"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="员工手机号"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="@color/matisse"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="员工部门"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="@color/matisse"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/matisse"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="18dp"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="@color/matisse"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="18dp"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="@color/matisse"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="18dp"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="@color/matisse"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="18dp"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="@color/matisse"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/matisse"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

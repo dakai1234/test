@@ -1,0 +1,10 @@
+include ':actionitemtest'
+include ':imageviewtest'
+include ':chronometertest'
+include ':clocktest'
+include ':togglebuttontest'
+include ':checkbutton'
+include ':buttontest'
+include ':edittextest'
+include ':app'
+rootProject.name = "TextViewTest"
